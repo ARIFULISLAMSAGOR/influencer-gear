@@ -21,6 +21,7 @@
  }
  .start-influence{
      display: flex; 
+     margin-bottom: 40px;
  }
  .title{
      font-size: 52px;
@@ -155,4 +156,13 @@
            flex-direction: column;
            
        }
+  }
+  @media only screen and (min-width:688px) and (max-width:992px) {
+           .container{
+               width: 100%;
+           }
+      .top-collection{
+          grid-template-columns: repeat(2,1fr);
+      }
+      
   }
