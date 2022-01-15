@@ -81,3 +81,11 @@
  .fa-star{
      font-size: 12px;
  }
+ footer{
+     background-color: black;
+     height:150px;
+     text-align:center ;
+     color: white;
+     padding-top: 50px;
+ }
+ 
