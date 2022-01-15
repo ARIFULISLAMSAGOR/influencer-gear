@@ -1,11 +1,13 @@
  /* google font */
  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital@1&family=Poppins:ital,wght@0,700;1,500&family=Roboto+Slab&display=swap');
+  /* start body */
  body{
     font-family: 'Lobster', cursive;
     font-family: 'Merriweather', serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Slab', serif;
  background-color: #AAAAAA;}
+  /* end body */
  .container{
      background-color: white;
  }
@@ -35,6 +37,10 @@
      width: 440px;
      height: 300 px;
      padding-left: 133px;
+ }
+ .main-img:hover{
+     transform: scale(1.5) rotate(-60deg);
+     transition: transform(2s);
  }
  .link-icon{
      border: 1px solid gray;
@@ -81,6 +87,31 @@
  .fa-star{
      font-size: 12px;
  }
+ #left-arrow{
+     justify-content: end;
+ }
+ .contact-form{
+     display: flex;
+     flex-direction: column;
+ }
+ .contact-container{
+     display: flex;
+     justify-content: center;
+ }
+.contact-form input,button{
+      font-size: 1.3em;
+     margin-top: 15px;
+     border: 1px solid lightgray;
+     padding-left: 10px;
+}
+.contact-form button{
+     background-color: orange;
+     color: whitesmoke;
+     font-size: 30px;
+     padding: 5px;
+     border-radius: 5px;
+     margin-bottom: 20px;
+}
  footer{
      background-color: black;
      height:150px;
