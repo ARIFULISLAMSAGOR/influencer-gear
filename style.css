@@ -6,7 +6,7 @@
     font-family: 'Merriweather', serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Slab', serif;
- background-color: #AAAAAA;}
+ background-color:white;}
   /* end body */
  .container{
      background-color: white;
@@ -124,4 +124,35 @@
      color: white;
      padding-top: 50px;
  }
- 
+  /* Media quaries */
+  /* Mobile devices */
+  @media only screen and (max-width:688px) {
+      .container{
+          width: 80%;
+      }
+        .start-influence,.new-collection-img,.top-collection,.contact-container,footer{
+           grid-template-columns: repeat(1,1fr);
+           display:grid;
+           justify-content:center;
+           visibility: inherit;
+       }
+       .main-img img{
+           width: 60%;
+           position: relative;
+           bottom:500px;
+       }
+       .start-influence{
+           margin-top: 200px;
+           width: 100%;
+       }
+           
+       .top-influence{
+           flex-direction: column;
+           width:100%;
+           padding-right: 10px;
+       }
+       .start-influence,.new-collection img,.contact-container,footer,{
+           flex-direction: column;
+           
+       }
+  }
