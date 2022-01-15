@@ -1,0 +1,83 @@
+ /* google font */
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital@1&family=Poppins:ital,wght@0,700;1,500&family=Roboto+Slab&display=swap');
+ body{
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+ background-color: #AAAAAA;}
+ .container{
+     background-color: white;
+ }
+ .section-title{
+     width: 243px;
+     height: 52px;
+     padding-top: 87px;
+     margin-left: 120px;
+     font-size: 24px;
+
+ }
+ .start-influence{
+     display: flex; 
+ }
+ .title{
+     font-size: 52px;
+ }
+
+ .top-influence{
+     width: 582px;
+     height: 270px;
+     border: 41px;
+     padding-left: 120px;
+     
+ }
+ .main-img img{
+     width: 440px;
+     height: 300 px;
+     padding-left: 133px;
+ }
+ .link-icon{
+     border: 1px solid gray;
+     background-color: purple;
+     border-radius: 40px;
+     width: 150px;
+      padding: 20px 40px;
+      padding-right: 5px;
+     color: white;
+ }
+ .link-icon a{
+     text-decoration: none;
+     color: white;
+ }
+ .second-heading{
+     text-align: center;
+ }
+ .top-collection{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     margin-left: 191px;
+     margin-right: 191px;
+     grid-row-gap: 30px;
+     grid-column-gap: 30px;
+ }
+ .new-collection{
+     width: 329px;
+     height: 476px;
+     
+     border-radius: 10px;
+     padding: 10px;
+     background-color:whitesmoke;
+ }
+ .new-collection .banner img{
+     width:300px;
+     height: 256px;
+ }
+ .fa-star.filled{
+     color: #FFC014;
+ }
+ .fa-star.empty{
+     color: #AEAEAE;
+ }
+ .fa-star{
+     font-size: 12px;
+ }
